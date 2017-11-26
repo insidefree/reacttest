@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ComposedChart, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
+import { ComposedChart, Line, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
 
 
 export default class ChartsMaker extends Component {

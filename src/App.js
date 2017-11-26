@@ -61,9 +61,7 @@ class App extends Component {
   }
 
   handleSelector = event => {
-      console.log(event.target.attributes.getNamedItem('value').value)
       this.setState({selected: event.target.attributes.getNamedItem('value').value})
-      console.log('state:', this.state)
   }
 
   formatDate = data => {

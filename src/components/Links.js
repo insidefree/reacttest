@@ -5,12 +5,12 @@ export default class Links extends Component {
         super(props)
     }
     render() {
-        const { data } = this.props
+        const { data, onClick } = this.props
         console.log(data)
         return (
             <div>
                 {data.map(obj =>
-                    <div href={obj.url} key={obj.id}>
+                    <div href={obj.url} key={obj.id} onClick={onClick}>
                         {obj.description}
                     </div>
                 )}

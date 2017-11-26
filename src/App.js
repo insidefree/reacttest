@@ -80,7 +80,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">khAkAs</h1>
         </header>
-        {this.state.isToggled ? <Links data={links}/> : ""}
+        {this.state.isToggled ? <Links data={links} onClick={this.handleSelector}/> : ""}
         <ToggleWrap
           onToggle={this.handleToggle}
           isToggled={this.state.isToggled} />

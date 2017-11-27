@@ -15,7 +15,7 @@ class App extends Component {
       charts: [],
       isToggled: false,
       test: "",
-      selected: 1
+      selected: 0
     }
 
     this.handleToggle = this.handleToggle.bind(this);

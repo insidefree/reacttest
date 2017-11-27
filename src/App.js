@@ -5,34 +5,8 @@ import GetDataByLink from './components/GetDataByLink';
 import ToggleWrap from './components/ToggleWrap'
 import ChartsMaker from './components/ChartsMaker'
 import Links from './components/Links'
+import links from './data/links.json'
 
-const links = [
-  {
-      "id": 0,
-      "description": "all",
-      "url": 'https://www.fxempire.com/api/v1/en/markets/eur-usd/chart'
-  },
-  {
-      "id": 1,
-      "description": "MIN_1",
-      "url": 'https://www.fxempire.com/api/v1/en/markets/eur-usd/chart?time=MIN_1'
-  },
-  {
-      "id": 2,
-      "description": "MIN_5",
-      "url": 'https://www.fxempire.com/api/v1/en/markets/eur-usd/chart?time=MIN_5'
-  },
-  {
-      "id": 3,
-      "description": "HOUR_1",
-      "url": 'https://www.fxempire.com/api/v1/en/markets/eur-usd/chart?time=HOUR_1'
-  },
-  {
-      "id": 4,
-      "description": "WEEK_1",
-      "url": 'https://www.fxempire.com/api/v1/en/markets/eur-usd/chart?time=WEEK_1'
-  }
-]
 
 class App extends Component {
   constructor(props) {
